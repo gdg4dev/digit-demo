@@ -1,0 +1,10 @@
+<div class="container">
+    <form (ngSubmit)="onSearch()">
+      <div class="form-row">
+        <input type="text" placeholder="Input 1" [(ngModel)]="input1" name="input1" required>
+        <input type="text" placeholder="Input 2" [(ngModel)]="input2" name="input2" required>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+  </div>
+  
